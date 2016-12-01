@@ -1,0 +1,357 @@
+		#xw {
+			height: 390px;
+			width: 1200px;
+			margin: 0 auto;
+			margin-top: 52px;
+		}
+		
+		#tongyong {
+			float: left;
+			width: 80px;
+			height: 150px;
+		}
+		
+		#xw .tongyong2 {
+			color: #947DAA;
+			text-align: center;
+			line-height: 25px;
+		}
+		
+		#xw .rq {
+			float: left;
+			font-size: 35px;
+			color: #FFFFFF;
+			text-align: center;
+			width: 80px;
+			margin-top: 21px;
+			line-height: 50px;
+			height: 54px;
+			background-color: #004EA1;
+		}
+		
+		#xw .xwbt {
+			display: block;
+			font-size: 17px;
+			margin-left: 105px;
+			margin-top: 22px;
+			line-height: 180%;
+			letter-spacing: -2px;
+			font-family: "黑体";
+			text-decoration: none;
+		}
+		
+		#xw .xwbt:hover {
+			color: #004EA1;
+			text-decoration: none;
+		}
+		
+		#xw .xwnr {
+			display: block;
+			font-size: 12px;
+			text-decoration: none;
+			margin-left: 105px;
+			margin-top: 5px;
+			color: #777777;
+			line-height: 180%;
+		}
+		
+		#xw .xwnr:hover {
+			color: #333333;
+			text-decoration: none;
+		}
+		
+		#xw .lan1 {
+			width: 370px;
+			height: 390px;
+			float: left;
+			margin-top: -230px;
+		}
+		
+		#xw .lan1 .lao1 {
+			width: 370px;
+			height: 241px;
+			margin-left: 4px;
+			background-image: url(../img/01.jpg);
+			background-size: 100% 100%;
+			background-repeat: no-repeat;
+		}
+		
+		#xw .lan2 {
+			width: 370px;
+			height: 390px;
+			margin-left: 45px;
+			float: left;
+			margin-top: -230px;
+		}
+		
+		#xw .lan2 .lao2 {
+			width: 370px;
+			height: 241px;
+			margin-left: 4px;
+			background-image: url(../img/02.jpg);
+			background-size: 100% 100%;
+			background-repeat: no-repeat;
+		}
+		
+		#xw .lan3 {
+			width: 370px;
+			height: 390px;
+			margin-left: 45px;
+			float: left;
+			margin-top: -230px;
+		}
+		
+		#xw .lan3 .lao3 {
+			width: 370px;
+			height: 241px;
+			margin-left: 4px;
+			background-image: url(../img/03.jpg);
+			background-size: 100% 100%;
+			background-repeat: no-repeat;
+		}
+		
+			input.xzuo {
+			margin-left: -90px;
+			margin-top: 150px;
+			float: left;
+		}
+		
+		input.xyou {
+			margin-left: 1221px;
+			margin-top: 152px;
+		}
+		
+#xw2 {
+			height: 390px;
+			width: 1200px;
+			margin: 0 auto;
+			margin-top: 52px;
+			
+		}
+		
+		#xw2 .tongyong2 {
+			color: #947DAA;
+			text-align: center;
+			line-height: 25px;
+		}
+		
+		#xw2 .rq {
+			float: left;
+			font-size: 35px;
+			color: #FFFFFF;
+			text-align: center;
+			width: 80px;
+			margin-top: 21px;
+			line-height: 50px;
+			height: 54px;
+			background-color: #004EA1;
+		}
+		
+		#xw2 .xwbt {
+			display: block;
+			font-size: 17px;
+			margin-left: 105px;
+			margin-top: 22px;
+			line-height: 180%;
+			letter-spacing: -2px;
+			font-family: "黑体";
+			text-decoration: none;
+		}
+		
+		#xw2 .xwbt:hover {
+			color: #004EA1;
+			text-decoration: none;
+		}
+		
+		#xw2 .xwnr {
+			display: block;
+			font-size: 12px;
+			text-decoration: none;
+			margin-left: 105px;
+			margin-top: 5px;
+			color: #777777;
+			line-height: 180%;
+		}
+		
+		#xw2 .xwnr:hover {
+			color: #333333;
+			text-decoration: none;
+		}
+		
+		#xw2 .lan1 {
+			width: 370px;
+			height: 390px;
+			float: left;
+			margin-top: -230px;
+		}
+		
+		#xw2 .lan1 .lao1 {
+			width: 370px;
+			height: 241px;
+			margin-left: 4px;
+			background-image: url(../img/04.jpg);
+			background-size: 100% 100%;
+			background-repeat: no-repeat;
+		}
+		
+		#xw2 .lan2 {
+			width: 370px;
+			height: 390px;
+			margin-left: 45px;
+			float: left;
+			margin-top: -230px;
+		}
+		
+		#xw2 .lan2 .lao2 {
+			width: 370px;
+			height: 241px;
+			margin-left: 4px;
+			background-image: url(../img/05.jpg);
+			background-size: 100% 100%;
+			background-repeat: no-repeat;
+		}
+		
+		#xw2 .lan3 {
+			width: 370px;
+			height: 390px;
+			margin-left: 45px;
+			float: left;
+			margin-top: -230px;
+		}
+		
+		#xw2 .lan3 .lao3 {
+			width: 370px;
+			height: 241px;
+			margin-left: 4px;
+			background-image: url(../img/06.jpg);
+			background-size: 100% 100%;
+			background-repeat: no-repeat;
+		}
+		
+			input.xzuo {
+			margin-left: -90px;
+			margin-top: 150px;
+			float: left;
+		}
+		
+		input.xyou {
+			margin-left: 1221px;
+			margin-top: 152px;
+		}
+		
+#xw3 {
+			height: 390px;
+			width: 1200px;
+			margin: 0 auto;
+			margin-top: 52px;
+			
+		}
+				#xw3 .tongyong2 {
+			color: #947DAA;
+			text-align: center;
+			line-height: 25px;
+		}
+		
+		#xw3 .rq {
+			float: left;
+			font-size: 35px;
+			color: #FFFFFF;
+			text-align: center;
+			width: 80px;
+			margin-top: 21px;
+			line-height: 50px;
+			height: 54px;
+			background-color: #004EA1;
+		}
+		
+		#xw3 .xwbt {
+			display: block;
+			font-size: 17px;
+			margin-left: 105px;
+			margin-top: 22px;
+			line-height: 180%;
+			letter-spacing: -2px;
+			font-family: "黑体";
+			text-decoration: none;
+		}
+		
+		#xw3 .xwbt:hover {
+			color: #004EA1;
+			text-decoration: none;
+		}
+		
+		#xw3 .xwnr {
+			display: block;
+			font-size: 12px;
+			text-decoration: none;
+			margin-left: 105px;
+			margin-top: 5px;
+			color: #777777;
+			line-height: 180%;
+		}
+		
+		#xw3 .xwnr:hover {
+			color: #333333;
+			text-decoration: none;
+		}
+		
+		#xw3 .lan1 {
+			width: 370px;
+			height: 390px;
+			float: left;
+			margin-top: -230px;
+		}
+		
+		#xw3 .lan1 .lao1 {
+			width: 370px;
+			height: 241px;
+			margin-left: 4px;
+			background-image: url(../img/07.jpg);
+			background-size: 100% 100%;
+			background-repeat: no-repeat;
+		}
+		
+		#xw3 .lan2 {
+			width: 370px;
+			height: 390px;
+			margin-left: 45px;
+			float: left;
+			margin-top: -230px;
+		}
+		
+		#xw3 .lan2 .lao2 {
+			width: 370px;
+			height: 241px;
+			margin-left: 4px;
+			background-image: url(../img/08.jpg);
+			background-size: 100% 100%;
+			background-repeat: no-repeat;
+		}
+		
+		#xw3 .lan3 {
+			width: 370px;
+			height: 390px;
+			margin-left: 45px;
+			float: left;
+			margin-top: -230px;
+		}
+		
+		#xw3 .lan3 .lao3 {
+			width: 370px;
+			height: 241px;
+			margin-left: 4px;
+			background-image: url(../img/09.jpg);
+			background-size: 100% 100%;
+			background-repeat: no-repeat;
+		}
+		
+			input.xzuo {
+			margin-left: -90px;
+			margin-top: 150px;
+			float: left;
+		}
+		
+		input.xyou {
+			margin-left: 1221px;
+			margin-top: 152px;
+		}
