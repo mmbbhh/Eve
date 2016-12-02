@@ -1,0 +1,300 @@
+#xiab {
+	width: 1200px;
+	height: 700px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+.zuosh {
+	width: 760px;
+	height: 280px;
+	float: left;
+	margin-top: 10px;
+}
+
+.zuoxi {
+	width: 760px;
+	height: 280px;
+	float: left;
+	margin-top: 10px;
+}
+
+.yoush {
+	width: 415px;
+	height: 410px;
+	background: #F5F5F5;
+	margin-top: -50px;
+	float: right;
+}
+
+.youxi {
+	width: 415px;
+	height: 196px;
+	background: #F5F5F5;
+	margin-top: 10px;
+	float: right;
+}
+
+.qwe {
+	font-size: 24px;
+	display: block;
+	line-height: 50px;
+	padding-left: 5px;
+	height: 50px;
+	width: 755px;
+	font-weight: 800;
+	float: left;
+	border-bottom: 2px solid #E0E9F4;
+}
+
+.doub {
+	color: #666666;
+	font-size: 15px;
+	float: right;
+	line-height: 60px;
+	text-decoration: none;
+}
+
+.doub:hover {
+	text-decoration: none;
+	color: #004EA1;
+	;
+}
+
+.zuozh {
+	font-size: 24px;
+	display: block;
+	line-height: 50px;
+	height: 50px;
+	padding-left: 5px;
+	width: 755px;
+	font-weight: 800;
+	float: left;
+	border-bottom: 2px solid gainsboro;
+}
+
+.nnr {
+	font-size: 26px;
+	width: 760px;
+	margin-top: 15px;
+	color: #CCCCCC;
+	padding-left: 8px;
+	font-family: "华文行楷";
+	display: block;
+}
+
+.lian {
+	display: block;
+	width: 200px;
+	white-space: nowrap;
+	line-height: 23px;
+	padding-left: 30px;
+	margin-right: 347px;
+	font-size: 16px;
+	letter-spacing: -1px;
+	font-family: "幼圆";
+	text-decoration: none;
+	border-left: 2px solid #CCCCCC;
+	float: right;
+}
+
+.lian:hover {
+	color: #004EA1;
+	text-decoration: none;
+}
+
+.tuup {
+	width: 133px;
+	margin-top: 21px;
+	margin-left: 21px;
+	height: 171px;
+	background: url(../img/meiti.jpg);
+	float: left;
+}
+
+.xiaodx {
+	display: block;
+	width: 230px;
+	margin-top: 26px;
+	margin-right: 10px;
+	line-height: 150%;
+	letter-spacing: -1px;
+	padding-bottom: 2px;
+	float: right;
+	font-size: 16px;
+	font-family: "楷体";
+	text-decoration: none;
+	border-bottom: 2px dotted #CCCCCC;
+}
+
+.xiaodx:hover {
+	color: #004EA1;
+	text-decoration: none;
+}
+
+.xiaodxol {
+	display: block;
+	width: 230px;
+	margin-top: 2px;
+	margin-right: 10px;
+	line-height: 150%;
+	letter-spacing: -1px;
+	padding-bottom: 2px;
+	float: right;
+	font-size: 16px;
+	font-family: "楷体";
+	text-decoration: none;
+	border-bottom: 2px dotted #CCCCCC;
+}
+
+.xiaodxol:hover {
+	color: #004EA1;
+	text-decoration: none;
+}
+
+.xiaodxol2 {
+	display: block;
+	width: 230px;
+	margin-top: 2px;
+	margin-right: 10px;
+	line-height: 150%;
+	letter-spacing: -1px;
+	float: right;
+	font-size: 16px;
+	font-family: "楷体";
+	text-decoration: none;
+}
+
+.xiaodxol2:hover {
+	color: #004EA1;
+	text-decoration: none;
+}
+
+.xiaodxol3 {
+	display: block;
+	width: 383px;
+	margin-top: 20px;
+	float: left;
+	margin-left: 21px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	border-top: 2px dotted #CCCCCC;
+	;
+	letter-spacing: -1px;
+	font-size: 16px;
+	font-family: "楷体";
+	text-decoration: none;
+	border-bottom: 2px dotted #CCCCCC;
+}
+
+.xiaodxol3:hover {
+	color: #004EA1;
+	text-decoration: none;
+}
+
+.xiaodxol4 {
+	display: block;
+	width: 383px;
+	float: left;
+	margin-left: 21px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	letter-spacing: -1px;
+	line-height: 150%;
+	font-size: 16px;
+	font-family: "楷体";
+	text-decoration: none;
+	border-bottom: 2px dotted #CCCCCC;
+}
+
+.xiaodxol4:hover {
+	color: #004EA1;
+	text-decoration: none;
+}
+
+.xiaodxol5 {
+	display: block;
+	width: 383px;
+	float: left;
+	margin-left: 21px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	letter-spacing: -1px;
+	line-height: 150%;
+	font-size: 16px;
+	font-family: "楷体";
+	text-decoration: none;
+}
+
+.xiaodxol5:hover {
+	color: #004EA1;
+	text-decoration: none;
+}
+
+.tuup {
+	width: 139px;
+	height: 156px;
+	margin-top: 21px;
+	margin-left: 21px;
+	background: url(../img/jiaodian.jpg);
+	background-size: 100% 100%;
+}
+
+.qqq {
+	float: left;
+	display: block;
+	width: 180px;
+	font-size: 21px;
+	font-family: "黑体";
+	margin-left: 18px;
+	margin-top: 25px;
+}
+
+.qqq:hover {
+	color: #004EA1;
+	text-decoration: none;
+}
+
+.www {
+	float: left;
+	width: 210px;
+	height: 30px;
+	background: #ADB9C6;
+	margin-left: 18px;
+	margin-top: 12px;
+}
+
+.fff {
+	display: block;
+	font-size: 13px;
+	line-height: 30px;
+	margin-left: 4px;
+	color: white;
+}
+
+.fff:hover {
+	color: #004EA1;
+	text-decoration: none;
+}
+
+.rty {
+	float: left;
+	width: 220px;
+	margin-left: 18px;
+	line-height: 200%;
+	margin-top: 10px;
+	font-size: 13px;
+}
+
+.ppp {
+	font-size: 12px;
+	float: right;
+	margin-top: -21px;
+	display: block;
+	color: #004EA1;
+}
+
+.ppp:hover {
+	color: #F2CA47;
+	text-decoration: none;
+}
