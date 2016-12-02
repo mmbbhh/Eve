@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="{CHARSET}">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>01</title>
+		<link rel="stylesheet" href="./css/reset.css">
+		<link href=".././css/daohang.css" rel="stylesheet" type="text/css" />
+		<link href=".././css/xinw.css" rel="stylesheet" type="text/css" />
+		<link href=".././css/duzi.css" rel="stylesheet" type="text/css" />
+	</head>
+	<style>
+		body {
+			background-image: url(../img/3_0.jpg);
+			background-size: 1920px 1080px;
+			background-attachment: fixed;
+			background-position: center center;
+			background-repeat: no-repeat;
+		}
+		
+		#tou {
+			background-image: url(.././img/zhuti.jpg);
+			height: 191px;
+		}
+		
+		#sousuo {
+			position: absolute;
+		}
+		
+		.shuru {
+			margin-top: 40px;
+			margin-left: 40px;
+			height: 34px;
+			background-color: rgba(4, 69, 138, 1);
+			border: none;
+		}
+		
+		.tijiao {
+			margin-left: -5px;
+			background-image: url(.././img/sousou.png);
+			border: none;
+			height: 36px;
+			width: 40px;
+			cursor: pointer;
+		}
+		
+		#s {
+			height: 30px;
+			margin-left: 337px;
+		}
+		
+		.cs {
+			font-size: 12px;
+			margin-top: 6px;
+			margin-left: 18px;
+			float: left;
+			color: #FFFFFF;
+			text-decoration: none;
+		}
+		
+		.cs:hover {
+			color: #993333;
+			text-decoration: none;
+		}
+		
+		.ds {
+			font-size: 12px;
+			margin-top: 6px;
+			margin-left: 740px;
+			float: left;
+			text-decoration: none;
+			color: #FFFFFF;
+		}
+		
+		.ds:hover {
+			color: #993333;
+			text-decoration: none;
+		}
+		
+		#dq {
+			height: 71px;
+			width: 361px;
+			float: left;
+			background-image: url(.././img/logo.png);
+			margin-left: 355px;
+			margin-top: 24px;
+		}
+		
+		#cc {
+			width: 737px;
+			float: left;
+			margin-left: 100px;
+			margin-top: 9px;
+			height: 113px;
+			background-image: url(.././img/cc.png);
+		}
+		
+		#tupian {
+			width: 1200px;
+			height: 185.68px;
+			background: url(../img/1_01.jpg);
+			margin: 0 auto;
+			background-size: 100% 100%;
+		}
+		
+		#xiaolian {
+			font-size: 15px;
+			color: red;
+			width: 200px;
+			margin-left: 370px;
+			margin-top: 60px;
+			height: 20px;
+		}
+		
+		.courenao {
+			color: red;
+			text-decoration: none;
+		}
+		
+		.courenao:hover {
+			color: #993333;
+			text-decoration: none;
+		}
+		
+		#dabiaoti {
+			width: 1200px;
+			display: block;
+			font-family: "幼圆";
+			text-align: center;
+			font-size: 32px;
+			color: #3333FF;
+			margin: 0 auto;
+			padding-left: 20px;
+			padding-right: 20px;
+			border-bottom: : 2px solider grey;
+		}
+		
+		#yingdao {
+			width: 1100px;
+			margin: 0 auto;
+			opacity: 0.5;
+			height: 55px;
+			background: #F9F9F9;
+			border-top: 2px solid #D5D5D5;
+			margin-top: 50px;
+		}
+		
+		.suibian {
+			width: 250px;
+			float: left;
+			display: block;
+			text-align: center;
+			margin-left: 20px;
+			line-height: 56px;
+			font-size: 17px;
+		}
+		
+		#father {
+			font-size: 20px;
+			height: 820px;
+			width: 1100px;
+			margin: 0 auto;
+			color: #FFFFF1;
+			line-height: 150%;
+		}
+		
+		.qi {
+			margin-top: 20px;
+		}
+		
+		.hai {
+			background: url(../img/3_1.jpg);
+			margin: 0 auto;
+			width: 621px;
+			height: 413px;
+			margin-top: 10px;
+		}
+		
+		.mdzz {
+			text-align: center;
+			margin-top: 10px;
+		}
+		
+		.haii {
+			background: url(../img/2_2.jpg);
+			margin: 0 auto;
+			width: 621px;
+			height: 413px;
+			margin-top: 10px;
+		}
+		
+		.haiii {
+			background: url(../img/2_3.jpg);
+			margin: 0 auto;
+			width: 621px;
+			height: 413px;
+			margin-top: 10px;
+		}
+		
+		#haofan {
+			margin-top: 60px;
+			font-size: 15px;
+			color: red;
+			width: 1100px;
+			height: 30px;
+			margin-left: 450px;
+		}
+		
+		#haofan1 {
+			font-size: 15px;
+			color: red;
+			width: 1100px;
+			height: 30px;
+			margin-left: 450px;
+		}
+		
+		#zuixia {
+			margin-top: 30px;
+			height: 253px;
+			background: url(../img/dierxia.jpg);
+		}
+		
+		.jjj {
+			float: left;
+			width: 480px;
+			height: 150px;
+			margin-top: 55px;
+			margin-left: 346px;
+		}
+		
+		.ooo {
+			color: #FFFFFF;
+			font-family: "微软雅黑";
+			font-size: 20px;
+		}
+		
+		.vvv {
+			float: left;
+			margin-right: 30px;
+			display: block;
+			width: 90px;
+			color: #A6C4DF;
+			margin-top: 18px;
+			text-decoration: none;
+		}
+		
+		.vvv:hover {
+			color: #E75B1B;
+			text-decoration: none;
+		}
+		
+		.vvvv {
+			float: left;
+			margin-right: 30px;
+			display: block;
+			width: 130px;
+			color: #A6C4DF;
+			margin-top: 18px;
+			text-decoration: none;
+		}
+		
+		.vvvv:hover {
+			color: #E75B1B;
+			text-decoration: none;
+		}
+		
+		#zuixia .ttt {
+			margin-top: 40px;
+			float: left;
+			height: 125px;
+			width: 430px;
+			border-left: 1px solid #3D6998;
+			border-right: 1px solid #3D6998;
+		}
+		
+		.ttt .ggg {
+			float: left;
+			width: 288.8px;
+			height: 56.8px;
+			background: url(../img/logo.png);
+			background-size: 100% 100%;
+			margin-left: 68px;
+			margin-top: 30px;
+		}
+		
+		.lll {
+			float: left;
+			width: 120px;
+			height: 180px;
+			background: url(../img/2d.png);
+			background-repeat: no-repeat;
+			background-size: 100% 66.6667%;
+			margin-top: 40px;
+			margin-left: 90px;
+		}
+		
+		.quni {
+			margin-top: 130px;
+			text-align: center;
+			color: #FFFFFF;
+		}
+		
+		#foot {
+			height: 42px;
+			background: #001F41;
+		}
+		
+		.dsb {
+			margin-left: 260px;
+			color: #FFFFFF;
+			float: left;
+			line-height: 40px;
+		}
+		
+		.sb {
+			color: #FFFFFF;
+			float: left;
+			line-height: 40px;
+			text-decoration: none;
+		}
+		
+		.sb:hover {
+			text-decoration: none;
+		}
+	</style>
+
+	<body>
+
+		<body style="margin:0 auto; border-style:dotted; width:1920px;"></body>
+		<div id="tou">
+			<div id="s">
+				<div>
+					<a class="cs" href="#">学生</a>
+				</div>
+				<div>
+					<a class="cs" href="#">教职工</a>
+				</div>
+				<div>
+					<a class="cs" href="#">访客</a>
+				</div>
+				<div>
+					<a class="cs" href="#">家长</a>
+				</div>
+				<div>
+					<a class="cs" href="#">校友</a>
+				</div>
+				<div>
+					<a class="ds" href="#">服务门户</a>
+				</div>
+				<div>
+					<a class="cs" href="#">电子邮件</a>
+				</div>
+				<div>
+					<a class="cs" href="#">东北大学</a>
+				</div>
+				<div>
+					<a class="cs" href="#">旧版浏览</a>
+				</div>
+			</div>
+			<div id="dq"></div>
+			<from class="sousuo">
+				<sapn><input type="text" class="shuru" /></sapn>
+				<span><input type="submit" class="tijiao" value="        " onClick="alert('大哥我不知道怎么玩，别点了')"/></span>
+			</from>
+			<div id="cc"></div>
+			<div id="dh">
+				<ul>
+					<li>
+						<a href="#">学校概况</a>
+						<ul>
+							<li>
+								<a href="#">学校简介</a>
+							</li>
+							<li>
+								<a href="#">现任领导</a>
+							</li>
+							<li>
+								<a href="#">组织机构</a>
+							</li>
+							<li>
+								<a href="#">校歌校训校标　　　　</a>
+							</li>
+							<li>
+								<a href="#">校园风景</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">院系设置</a>
+						<ul>
+							<li>
+								<a href="#">研究生分院</a>
+							</li>
+							<li>
+								<a href="#">经济学院</a>
+							</li>
+							<li>
+								<a href="#">管理学院</a>
+							</li>
+							<li>
+								<a href="#">计算机与通信工程学院</a>
+							</li>
+							<li>
+								<a href="#">控制工程学院</a>
+							</li>
+							<li>
+								<a href="#">语言学院</a>
+							</li>
+							<li>
+								<a href="#">数学与统计学院</a>
+							</li>
+							<li>
+								<a href="#">资源与材料学院</a>
+							</li>
+							<li>
+								<a href="#">社会科学研究院</a>
+							</li>
+							<li>
+								<a href="#">体育部</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">教学科研</a>
+						<ul>
+							<li>
+								<a href="#">师资队伍</a>
+							</li>
+							<li>
+								<a href="#">本科生教育</a>
+							</li>
+							<li>
+								<a href="#">研究生教育</a>
+							</li>
+							<li>
+								<a href="#">教学管理系统　　　　</a>
+							</li>
+							<li>
+								<a href="#">科研管理系统</a>
+							</li>
+							<li>
+								<a href="#">学术会议</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">招生就业</a>
+						<ul>
+							<li>
+								<a href="#">招生网　　　　　　　</a>
+							</li>
+							<li>
+								<a href="#">就业网</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">人才招聘</a>
+					</li>
+					<li>
+						<a href="#">国际交流合作</a>
+					</li>
+					<li>
+						<a href="#">创新创业</a>
+					</li>
+					<li>
+						<a href="#">校园生活</a>
+						<ul>
+							<li>
+								<a href="#">文化生活</a>
+							</li>
+							<li>
+								<a href="#">体育健康</a>
+							</li>
+							<li>
+								<a href="#">校园安全</a>
+							</li>
+							<li>
+								<a href="#">交通地图</a>
+							</li>
+							<li>
+								<a href="#">校历</a>
+							</li>
+							<li>
+								<a href="#">服务信息　　　　</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div id="tupian"></div>
+		<div id="xiaolian">当前位置 :
+			<a class="courenao" href="../index.html">首页</a>> 正文 </div>
+		<div id="dabiaoti">2017年度全国煤炭交易大会青年志愿者培训会顺利举行</div>
+		<div id="yingdao">
+			<div class="suibian">日期：2016-11-29</div>
+			<div class="suibian">来源：团委</div>
+			<div class="suibian">作者：王静、丁晓梅</div>
+			<div class="suibian">关注：[276]</div>
+		</div>
+		<div id="father">
+			<div>　　　11月29日，2017年度全国煤炭交易大会青年志愿者培训会在我校大学会馆三楼学术报告厅顺利举行。共青团秦皇岛市委副书记刘俏、我校团委书记何双雷、团海港区委书记孟凡杰、带队老师及100名青年志愿者参加了培训会。</div>
+			<div class="qi">　　首先，何双雷介绍2017年度全国煤炭交易大会基本情况，并做了动员讲话，对全体志愿者提出了“牢记安全第一原则、践行志愿服务精神、保持良好服务形象、增强团队合作意识”四点要求。随后，刘俏作重要讲话，对志愿者工作做了相关部署，并表示希望全体志愿者做好充足的准备，用最饱满的状态和热情来迎接志愿服务工作，为此次大会提供优质、高效、便捷的服务，展示秦皇岛青年的精神风貌。最后，由中共秦皇岛市委党校李元媛对志愿者们进行了志愿服务礼仪培训，从志愿者基本礼仪的仪容仪表、交际艺术等多个方面做了详细的讲解。</div>
+			<div class="qi">　　据悉，本次全国煤炭交易会由中国煤炭工业协会主办，中国煤炭运销协会、全国煤炭交易市场合作组织、河北港口集团（秦皇岛海运煤炭交易市场）承办，将于12月1日至3日在我市海港区举办，有来自政府有关部门、行业协会和煤炭生产、运输、消费、流通企业及相关研究咨询机构等参加。届时，我校的100名青年志愿者将承担本次活动的全部志愿服务工作，为煤炭交易会提供嘉宾接待、会场保障、新闻宣传、安全保卫、展示展览等志愿服务。</div>
+			<div class="hai"></div>
+			<div class="mdzz">合影（图为团委提供）</div>
+		</div>
+		<div id="haofan">上一条：
+			<a href="2.html" class="courenao">我校举行“身正为范，立德树人”教职工演讲比赛</a>
+		</div>
+		<div id="haofan1">下一条：
+			<a href="4.html" class="courenao">河北省科普信息化工程技术研究中心批准建设</a>
+		</div>
+		<div id="zuixia">
+			<div class="jjj">
+				<div class="ooo">公共服务</div>
+				<a href="#" class="vvv">信息公开</a>
+				<a href="#" class="vvv">招标采购</a>
+				<a href="#" class="vvv">形象识别</a>
+				<a href="#" class="vvv">服务信息</a>
+				<a href="#" class="vvv">远程访问</a>
+				<a href="#" class="vvv">馆藏检索</a>
+				<a href="#" class="vvv">办公电话</a>
+				<a href="#" class="vvv">云端东秦</a>
+				<a href="#" class="vvvv">学生校长助理留言</a>
+			</div>
+			<div class="ttt">
+				<div class="ggg"></div>
+			</div>
+			<div class="lll">
+				<div class="quni">扫描微信二维码</div>
+			</div>
+		</div>
+		<div id="foot">
+			<div class="dsb">版权所有©东北大学秦皇岛分校 | 地址：河北省秦皇岛经济技术开发区泰山路143号 | 邮编：066004 | 技术维护：东北大学秦皇岛分校信息化建设与管理办公室 | 冀ICP备字05002793号 |</div>
+			<a href="#" class="sb"><img src="../img/sb.png" alt="" class="fansile">冀公网安备 13030202000995号</a>
+		</div>
+	</body>
+	</body>
+
+</html>
